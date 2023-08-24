@@ -5,13 +5,14 @@ import java.time.LocalDateTime;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity(name = "news")
 public class News {
 
     @Id
     private Long id;
     private String title;
     private String details;
+    private String tags;
     private LocalDateTime reportedAt;
 
     public Long getId() {
@@ -38,12 +39,18 @@ public class News {
         this.details = details;
     }
 
-
     public LocalDateTime getReportedAt() {
         return reportedAt;
     }
 
     public void setReportedAt(LocalDateTime reportedAt) {
         this.reportedAt = reportedAt;
+    }
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 }

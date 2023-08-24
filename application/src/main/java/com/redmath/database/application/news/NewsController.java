@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 public class NewsController {
 
     private final NewsService service;
-
     public NewsController(NewsService service) {
+
         this.service = service;
     }
 
@@ -36,8 +36,6 @@ public class NewsController {
         return ResponseEntity.ok(news);
     }
 
-
-
     @PostMapping
     public ResponseEntity<News> create(@RequestBody News news) {
         News created = service.create(news);
@@ -46,27 +44,16 @@ public class NewsController {
         }
         return ResponseEntity.status(HttpStatus.CONFLICT).build();
     }
+    @PutMapping("/{id}")
+    public ResponseEntity<News> update(@PathVariable("id") long id,@RequestBody News news) {
 
+        News up = service.update(news, id);
+        if (up==null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(up);
+    }
 
-//    @PutMapping("/{id}")
-//    public ResponseEntity<News> update(@PathVariable("id") long id, @RequestBody News updatedNews) {
-//        Optional<News> existingNews = service.NewsRepository.findById(id);
-//
-//        if (existingNews.isEmpty()) {
-//            return ResponseEntity.notFound().build();
-//        }
-//        News newsToUpdate = existingNews.get();
-//        newsToUpdate.setTitle(updatedNews.getTitle());
-//
-//        News updated = service.update(newsToUpdate);
-//
-//        if (updated != null) {
-//            return ResponseEntity.ok(updated);
-//        }
-//        return ResponseEntity.status(HttpStatus.CONFLICT).build();
-//    }
-//
-//
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable("id") long id) {
         News news = service.findById(id);
@@ -77,4 +64,5 @@ public class NewsController {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }
+
 }

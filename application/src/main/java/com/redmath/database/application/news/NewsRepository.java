@@ -10,8 +10,5 @@ import java.util.List;
 @Repository
 public interface NewsRepository extends JpaRepository<News, Long> {
 
-    //List<News> findAll();
-    //Long findById(Long id);
-
 }
 
