@@ -533,3 +533,537 @@ org.springframework.security.authentication.InternalAuthenticationServiceExcepti
 2023-08-25T14:35:56.354+05:00  INFO [news,,] DESKTOP-3D9VEJF 15124 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-25T14:35:56.356+05:00  INFO [news,,] DESKTOP-3D9VEJF 15124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-08-25T14:35:56.358+05:00  INFO [news,,] DESKTOP-3D9VEJF 15124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T16:31:51.066+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 16512 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T16:31:51.068+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T16:31:51.890+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T16:31:51.951+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2023-08-25T16:31:52.711+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T16:31:52.723+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T16:31:52.723+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T16:31:52.822+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T16:31:52.823+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1698 ms
+2023-08-25T16:31:52.865+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T16:31:53.080+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:23dda2a3-e6e8-4d3a-ab19-59d7c0b4aeba user=SA
+2023-08-25T16:31:53.084+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T16:31:53.095+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:23dda2a3-e6e8-4d3a-ab19-59d7c0b4aeba'
+2023-08-25T16:31:53.115+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T16:31:53.115+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T16:31:53.290+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T16:31:53.780+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.783+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.788+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.790+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.796+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.796+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T16:31:53.810+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T16:31:53.815+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.816+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T16:31:53.820+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.822+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.913+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T16:31:53.916+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T16:31:53.920+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T16:31:53.920+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 10ms
+2023-08-25T16:31:53.925+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.927+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.930+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:31:53.934+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:31:53.935+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 7ms
+2023-08-25T16:31:53.937+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.949+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T16:31:53.951+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T16:31:53.954+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T16:31:53.954+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 15ms
+2023-08-25T16:31:53.955+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.958+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:31:53.959+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:31:53.960+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 4ms
+2023-08-25T16:31:53.961+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.962+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T16:31:53.964+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:31:53.964+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T16:31:54.111+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T16:31:54.175+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T16:31:54.177+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T16:31:54.332+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:31:54.473+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T16:31:54.702+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:31:55.295+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T16:31:55.298+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:31:55.961+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T16:31:56.061+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T16:31:56.088+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T16:31:56.099+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T16:31:56.323+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c680819, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52cda4bd, org.springframework.security.web.context.SecurityContextHolderFilter@765e5a55, org.springframework.security.web.header.HeaderWriterFilter@adbc3bc, org.springframework.security.web.csrf.CsrfFilter@1ee5792a, org.springframework.security.web.authentication.logout.LogoutFilter@430dbcb0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f59cb6f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7bc239db, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40aaf656, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3f0c2eff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1722ede1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73bd146c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a183fa6, org.springframework.security.web.access.ExceptionTranslationFilter@7305a443, org.springframework.security.web.access.intercept.AuthorizationFilter@7828bc6b]
+2023-08-25T16:31:56.374+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T16:31:56.384+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [main] c.r.database.application.Application     : Started Application in 6.102 seconds (process running for 6.595)
+2023-08-25T16:32:19.917+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T16:32:19.917+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T16:32:19.917+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T16:32:19.918+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T16:32:19.918+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T16:32:19.920+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a3e458
+2023-08-25T16:32:19.920+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1146e32e
+2023-08-25T16:32:19.920+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T16:32:19.921+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-25T16:32:28.706+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:32:28.737+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News?continue", parameters={masked}
+2023-08-25T16:32:28.745+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T16:32:28.763+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T16:32:28.781+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T16:32:28.783+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@4a589a34, com.redmath.database.application.news (truncated)...]
+2023-08-25T16:32:28.817+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T16:32:58.912+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News?continue", parameters={masked}
+2023-08-25T16:32:58.913+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T16:32:58.914+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T16:32:58.915+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T16:32:58.915+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@65da4e0, com.redmath.database.application.news. (truncated)...]
+2023-08-25T16:32:58.916+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T16:33:06.936+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:33:06.945+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-08-25T16:33:06.947+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-25T16:33:06.949+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-08-25T16:33:06.949+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-08-25T16:33:06.953+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-08-25T16:33:06.955+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-08-25T16:33:06.975+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-08-25T16:33:06.979+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-08-25T16:33:18.076+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:33:18.080+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-08-25T16:33:18.081+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-25T16:33:18.081+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-08-25T16:33:18.081+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-08-25T16:33:18.081+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-08-25T16:33:18.082+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-08-25T16:33:18.084+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-08-25T16:33:18.084+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-08-25T16:34:04.351+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:34:04.354+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-25T16:34:04.356+05:00  INFO [news,,] DESKTOP-3D9VEJF 16512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T16:34:06.818+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 16536 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T16:34:06.820+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T16:34:07.597+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T16:34:07.663+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2023-08-25T16:34:08.400+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T16:34:08.413+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T16:34:08.413+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T16:34:08.533+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T16:34:08.534+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1658 ms
+2023-08-25T16:34:08.569+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T16:34:08.760+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:907961d8-c923-4c1c-9990-dfc00e8df7ac user=SA
+2023-08-25T16:34:08.762+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T16:34:08.773+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:907961d8-c923-4c1c-9990-dfc00e8df7ac'
+2023-08-25T16:34:08.793+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T16:34:08.793+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T16:34:08.955+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T16:34:09.418+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.422+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.426+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.429+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.435+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.436+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T16:34:09.451+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T16:34:09.455+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.456+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T16:34:09.458+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.460+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.514+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T16:34:09.516+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T16:34:09.520+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T16:34:09.521+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 9ms
+2023-08-25T16:34:09.525+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.526+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.529+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:34:09.531+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:34:09.532+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 4ms
+2023-08-25T16:34:09.533+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.538+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T16:34:09.539+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T16:34:09.542+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T16:34:09.542+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 8ms
+2023-08-25T16:34:09.543+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.548+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:34:09.549+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:34:09.550+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 4ms
+2023-08-25T16:34:09.551+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.554+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T16:34:09.555+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:09.556+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T16:34:09.647+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T16:34:09.721+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T16:34:09.724+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T16:34:09.901+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:34:10.046+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T16:34:10.284+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:34:10.844+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T16:34:10.847+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:34:11.351+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T16:34:11.433+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T16:34:11.451+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T16:34:11.458+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T16:34:11.659+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a183fa6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@167ccc3c, org.springframework.security.web.context.SecurityContextHolderFilter@307ba188, org.springframework.security.web.header.HeaderWriterFilter@765e5a55, org.springframework.security.web.csrf.CsrfFilter@779cda39, org.springframework.security.web.authentication.logout.LogoutFilter@2f403d0a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3be2ef56, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@403b7be3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@292b7a02, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c680819, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73f0b216, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42a198dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e242137, org.springframework.security.web.access.ExceptionTranslationFilter@3c6d3ba, org.springframework.security.web.access.intercept.AuthorizationFilter@614d01b]
+2023-08-25T16:34:11.709+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T16:34:11.720+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [main] c.r.database.application.Application     : Started Application in 5.442 seconds (process running for 5.835)
+2023-08-25T16:34:21.882+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T16:34:21.883+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T16:34:21.883+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T16:34:21.883+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T16:34:21.883+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T16:34:21.884+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@49c72fb7
+2023-08-25T16:34:21.884+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4cd7128
+2023-08-25T16:34:21.884+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T16:34:21.885+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-25T16:34:32.292+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:34:32.321+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News?continue", parameters={masked}
+2023-08-25T16:34:32.328+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T16:34:32.353+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T16:34:32.374+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T16:34:32.377+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@7dac101c, com.redmath.database.application.news (truncated)...]
+2023-08-25T16:34:32.415+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 16536 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T16:34:49.276+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:34:49.278+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-25T16:34:49.279+05:00  INFO [news,,] DESKTOP-3D9VEJF 16536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T16:34:51.741+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 18360 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T16:34:51.744+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T16:34:52.426+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T16:34:52.486+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2023-08-25T16:34:53.142+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T16:34:53.152+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T16:34:53.152+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T16:34:53.243+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T16:34:53.244+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2023-08-25T16:34:53.283+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T16:34:53.481+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd4ce130-849f-46cd-9747-7dd45c0e3e08 user=SA
+2023-08-25T16:34:53.483+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T16:34:53.494+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd4ce130-849f-46cd-9747-7dd45c0e3e08'
+2023-08-25T16:34:53.514+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T16:34:53.514+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T16:34:53.664+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T16:34:54.086+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.089+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.094+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.097+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.102+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.102+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T16:34:54.116+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T16:34:54.121+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.121+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T16:34:54.124+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.125+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.170+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T16:34:54.172+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T16:34:54.174+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T16:34:54.175+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 6ms
+2023-08-25T16:34:54.178+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.179+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.182+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:34:54.183+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:34:54.184+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 4ms
+2023-08-25T16:34:54.185+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.188+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T16:34:54.189+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T16:34:54.192+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T16:34:54.193+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 6ms
+2023-08-25T16:34:54.194+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.197+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:34:54.199+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:34:54.200+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 4ms
+2023-08-25T16:34:54.201+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.202+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T16:34:54.204+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:34:54.205+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T16:34:54.282+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T16:34:54.350+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T16:34:54.355+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T16:34:54.517+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:34:54.649+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T16:34:54.865+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:34:55.420+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T16:34:55.424+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:34:55.928+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T16:34:56.011+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T16:34:56.028+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T16:34:56.040+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T16:34:56.239+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a5d9ede, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39e91bda, org.springframework.security.web.context.SecurityContextHolderFilter@22ea09b7, org.springframework.security.web.header.HeaderWriterFilter@3a641f6, org.springframework.security.web.csrf.CsrfFilter@6bbd4048, org.springframework.security.web.authentication.logout.LogoutFilter@5603632c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1722ede1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6b23897a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2c3f81ef, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@709c6768, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36a7586f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d84f113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@374013e8, org.springframework.security.web.access.ExceptionTranslationFilter@66831b14, org.springframework.security.web.access.intercept.AuthorizationFilter@22cca101]
+2023-08-25T16:34:56.296+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T16:34:56.303+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [main] c.r.database.application.Application     : Started Application in 5.1 seconds (process running for 5.535)
+2023-08-25T16:35:13.493+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T16:35:13.493+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T16:35:13.494+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T16:35:13.494+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T16:35:13.494+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T16:35:13.495+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@72321701
+2023-08-25T16:35:13.495+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@22b4ad0c
+2023-08-25T16:35:13.495+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T16:35:13.496+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-25T16:35:38.349+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:35:38.377+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News?continue", parameters={masked}
+2023-08-25T16:35:38.385+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T16:35:38.407+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T16:35:38.426+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T16:35:38.428+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@4a589a34, com.redmath.database.application.news (truncated)...]
+2023-08-25T16:35:38.463+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T16:35:52.119+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:35:52.141+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-08-25T16:35:52.143+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-08-25T16:35:52.145+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-08-25T16:35:52.145+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-08-25T16:35:52.148+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-08-25T16:35:52.149+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-08-25T16:35:52.175+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-08-25T16:35:52.178+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18360 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-08-25T16:36:20.964+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:36:20.966+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-25T16:36:20.968+05:00  INFO [news,,] DESKTOP-3D9VEJF 18360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T16:36:22.964+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 1092 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T16:36:22.965+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T16:36:23.646+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T16:36:23.709+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2023-08-25T16:36:24.362+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T16:36:24.372+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T16:36:24.372+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T16:36:24.471+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T16:36:24.471+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2023-08-25T16:36:24.500+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T16:36:24.669+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:69bb6769-a6d6-4806-8923-2af60c64b702 user=SA
+2023-08-25T16:36:24.671+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T16:36:24.682+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:69bb6769-a6d6-4806-8923-2af60c64b702'
+2023-08-25T16:36:24.701+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T16:36:24.702+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T16:36:24.861+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T16:36:25.293+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.296+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.300+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.303+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.308+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.309+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T16:36:25.322+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T16:36:25.333+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.334+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T16:36:25.338+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.339+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.400+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T16:36:25.402+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T16:36:25.404+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T16:36:25.404+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 7ms
+2023-08-25T16:36:25.407+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.409+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.412+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:36:25.413+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T16:36:25.414+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 4ms
+2023-08-25T16:36:25.415+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.419+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T16:36:25.421+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T16:36:25.423+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T16:36:25.423+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 6ms
+2023-08-25T16:36:25.425+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.428+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:36:25.430+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T16:36:25.430+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 4ms
+2023-08-25T16:36:25.431+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.432+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T16:36:25.434+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T16:36:25.434+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T16:36:25.523+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T16:36:25.583+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T16:36:25.587+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T16:36:25.730+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:36:25.867+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T16:36:26.088+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T16:36:26.620+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T16:36:26.623+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T16:36:27.138+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T16:36:27.220+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T16:36:27.241+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T16:36:27.250+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T16:36:27.451+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e60890c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c680819, org.springframework.security.web.context.SecurityContextHolderFilter@5d3f583d, org.springframework.security.web.header.HeaderWriterFilter@3ed2a30c, org.springframework.security.web.csrf.CsrfFilter@69fa5536, org.springframework.security.web.authentication.logout.LogoutFilter@3c00da24, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7828bc6b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5924ea91, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@52cda4bd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@769c80d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22cca101, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73f0b216, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40aaf656, org.springframework.security.web.access.ExceptionTranslationFilter@7bbe5548, org.springframework.security.web.access.intercept.AuthorizationFilter@4e451f9a]
+2023-08-25T16:36:27.503+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T16:36:27.514+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [main] c.r.database.application.Application     : Started Application in 5.099 seconds (process running for 5.512)
+2023-08-25T16:36:35.484+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T16:36:35.485+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T16:36:35.485+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T16:36:35.486+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T16:36:35.486+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T16:36:35.487+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6908674b
+2023-08-25T16:36:35.488+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@44846c76
+2023-08-25T16:36:35.488+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T16:36:35.488+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-25T16:36:41.809+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:36:53.382+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select u1_0.id,u1_0.login_at,u1_0.login_attempts,u1_0.password,u1_0.roles,u1_0.status,u1_0.user_name from users u1_0 where u1_0.user_name=?
+2023-08-25T16:36:53.406+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News?continue", parameters={masked}
+2023-08-25T16:36:53.414+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T16:36:53.440+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T16:36:53.459+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T16:36:53.461+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@615dd1de, com.redmath.database.application.news (truncated)...]
+2023-08-25T16:36:53.500+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 1092 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T17:15:59.221+05:00  WARN [news,,] DESKTOP-3D9VEJF 1092 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m34s323ms372µs300ns).
+2023-08-25T17:25:25.161+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T17:25:25.164+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-25T17:25:25.165+05:00  INFO [news,,] DESKTOP-3D9VEJF 1092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T17:25:28.657+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 18668 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T17:25:28.659+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T17:25:29.380+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T17:25:29.441+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2023-08-25T17:25:30.125+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T17:25:30.136+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T17:25:30.136+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T17:25:30.239+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T17:25:30.240+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
+2023-08-25T17:25:30.269+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T17:25:30.456+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e8385185-43fa-4b0e-9fd2-e2196c14b8ac user=SA
+2023-08-25T17:25:30.457+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T17:25:30.468+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e8385185-43fa-4b0e-9fd2-e2196c14b8ac'
+2023-08-25T17:25:30.487+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T17:25:30.488+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T17:25:30.633+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T17:25:31.038+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.041+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.045+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.048+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.052+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.053+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T17:25:31.067+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T17:25:31.070+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.071+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T17:25:31.073+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.074+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.122+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T17:25:31.124+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T17:25:31.126+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T17:25:31.127+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 8ms
+2023-08-25T17:25:31.130+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.131+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.134+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T17:25:31.135+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T17:25:31.136+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 4ms
+2023-08-25T17:25:31.138+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.141+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T17:25:31.143+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T17:25:31.145+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T17:25:31.146+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 7ms
+2023-08-25T17:25:31.147+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.150+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T17:25:31.158+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T17:25:31.159+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 11ms
+2023-08-25T17:25:31.160+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.161+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T17:25:31.163+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:25:31.163+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T17:25:31.253+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T17:25:31.333+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T17:25:31.336+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T17:25:31.488+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T17:25:31.622+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T17:25:31.843+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T17:25:32.384+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T17:25:32.387+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T17:25:32.883+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ded31cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47b71556, org.springframework.security.web.context.SecurityContextHolderFilter@6cb2b947, org.springframework.security.web.header.HeaderWriterFilter@7bdaf563, org.springframework.security.web.csrf.CsrfFilter@1002c49e, org.springframework.security.web.authentication.logout.LogoutFilter@38dc1c50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ccea4be, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6b8a9e1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6fb2b972, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a4c6e74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1104cf3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fa3df, org.springframework.security.web.access.ExceptionTranslationFilter@6b3d3e57, org.springframework.security.web.access.intercept.AuthorizationFilter@73db1a6]
+2023-08-25T17:25:32.999+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T17:25:33.080+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T17:25:33.105+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T17:25:33.114+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T17:25:33.240+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T17:25:33.248+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [main] c.r.database.application.Application     : Started Application in 5.124 seconds (process running for 5.491)
+2023-08-25T17:25:44.454+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T17:25:44.454+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T17:25:44.454+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T17:25:44.454+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T17:25:44.455+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T17:25:44.456+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@32f243f
+2023-08-25T17:25:44.456+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f82a71f
+2023-08-25T17:25:44.457+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T17:25:44.457+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-25T17:25:44.474+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News", parameters={}
+2023-08-25T17:25:44.485+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T17:25:44.613+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T17:25:44.654+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T17:25:44.657+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@2d297c73, com.redmath.database.application.news (truncated)...]
+2023-08-25T17:25:44.719+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T17:25:55.660+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News", parameters={}
+2023-08-25T17:25:55.664+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findAll()
+2023-08-25T17:25:55.666+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0
+2023-08-25T17:25:55.667+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T17:25:55.667+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{content=[com.redmath.database.application.news.News@27d6874a, com.redmath.database.application.news (truncated)...]
+2023-08-25T17:25:55.668+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 18668 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-08-25T17:27:21.371+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T17:27:21.374+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-25T17:27:21.376+05:00  INFO [news,,] DESKTOP-3D9VEJF 18668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-25T17:27:26.157+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] c.r.database.application.Application     : Starting Application using Java 20.0.2 with PID 15992 (C:\Users\muttahir.islam\Downloads\application\application\target\classes started by muttahir.islam in C:\Users\muttahir.islam\Downloads\application)
+2023-08-25T17:27:26.159+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] c.r.database.application.Application     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25T17:27:26.879+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-25T17:27:26.945+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2023-08-25T17:27:27.630+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-25T17:27:27.641+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-25T17:27:27.641+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25T17:27:27.751+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-25T17:27:27.751+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1538 ms
+2023-08-25T17:27:27.783+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-25T17:27:27.952+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9a6acd35-fbb4-417f-ae04-8c0632a46495 user=SA
+2023-08-25T17:27:27.954+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-25T17:27:27.965+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9a6acd35-fbb4-417f-ae04-8c0632a46495'
+2023-08-25T17:27:27.990+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-08-25T17:27:27.991+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], h2Console urls=[/h2-console/*]
+2023-08-25T17:27:28.187+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.database                       : Set default schema name to PUBLIC
+2023-08-25T17:27:28.644+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.648+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.652+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.655+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.661+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.661+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-08-25T17:27:28.675+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-08-25T17:27:28.681+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.682+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2023-08-25T17:27:28.685+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.686+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.735+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Table news created
+2023-08-25T17:27:28.737+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Primary key added to news (id)
+2023-08-25T17:27:28.742+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Index news_ix_01 created
+2023-08-25T17:27:28.743+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.1.yaml::schema-0.0.1::news team ran successfully in 11ms
+2023-08-25T17:27:28.747+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.749+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.752+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T17:27:28.754+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : New row inserted into news
+2023-08-25T17:27:28.754+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.1.yaml::data-0.0.1::news team ran successfully in 4ms
+2023-08-25T17:27:28.755+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.759+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Table users created
+2023-08-25T17:27:28.760+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Primary key added to users (id)
+2023-08-25T17:27:28.764+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : Unique constraint added to users(user_name)
+2023-08-25T17:27:28.765+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-schema-0.0.2.yaml::schema-0.0.2::news team ran successfully in 9ms
+2023-08-25T17:27:28.767+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.770+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T17:27:28.771+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : New row inserted into users
+2023-08-25T17:27:28.771+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-data-0.0.2.yaml::data-0.0.2::news team ran successfully in 3ms
+2023-08-25T17:27:28.773+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.773+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase                                : Update command completed successfully.
+2023-08-25T17:27:28.776+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.executor                       : Changelog query completed.
+2023-08-25T17:27:28.776+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-08-25T17:27:28.860+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-25T17:27:28.924+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-25T17:27:28.926+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-25T17:27:29.134+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T17:27:29.287+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-25T17:27:29.509+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-25T17:27:30.056+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-25T17:27:30.058+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-25T17:27:30.652+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ded31cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47b71556, org.springframework.security.web.context.SecurityContextHolderFilter@6cb2b947, org.springframework.security.web.header.HeaderWriterFilter@7bdaf563, org.springframework.security.web.csrf.CsrfFilter@1002c49e, org.springframework.security.web.authentication.logout.LogoutFilter@38dc1c50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ccea4be, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6b8a9e1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6fb2b972, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a4c6e74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1104cf3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fa3df, org.springframework.security.web.access.ExceptionTranslationFilter@6b3d3e57, org.springframework.security.web.access.intercept.AuthorizationFilter@73db1a6]
+2023-08-25T17:27:30.788+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-08-25T17:27:30.903+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2023-08-25T17:27:30.941+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-08-25T17:27:30.952+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-08-25T17:27:31.102+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25T17:27:31.117+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [main] c.r.database.application.Application     : Started Application in 5.497 seconds (process running for 5.892)
+2023-08-25T17:27:36.195+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25T17:27:36.196+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-25T17:27:36.196+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-08-25T17:27:36.196+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-08-25T17:27:36.196+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-08-25T17:27:36.197+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@60c33609
+2023-08-25T17:27:36.197+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@35bb3fea
+2023-08-25T17:27:36.197+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-08-25T17:27:36.197+05:00  INFO [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-25T17:28:01.185+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/News/1", parameters={}
+2023-08-25T17:28:01.199+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.redmath.database.application.news.NewsController#findById(Long)
+2023-08-25T17:28:01.259+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select n1_0.id,n1_0.details,n1_0.reported_at,n1_0.tags,n1_0.title from news n1_0 where n1_0.id=?
+2023-08-25T17:28:01.322+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2023-08-25T17:28:01.324+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.redmath.database.application.news.News@56e502c3]
+2023-08-25T17:28:01.340+05:00 DEBUG [news,,] DESKTOP-3D9VEJF 15992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
